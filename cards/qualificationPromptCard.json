@@ -1,0 +1,27 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "What is your highest qualification?",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "id": "qualification",
+            "placeholder": "Enter your qualification",
+            "isMultiline": false
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit"
+                }
+            ]
+        }
+    ]
+}

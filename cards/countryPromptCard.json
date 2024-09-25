@@ -1,0 +1,28 @@
+{
+  
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Which country are you from?",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "id": "country",
+            "placeholder": "Enter your country",
+            "isMultiline": false
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit"
+                }
+            ]
+        }
+    ]
+}

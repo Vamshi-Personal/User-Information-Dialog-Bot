@@ -1,0 +1,25 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Which dialog do you want to start?",
+            "weight": "bolder",
+            "size": "large"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "User Info",
+            "data": { "choice": "User Info" }
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Favorite Info",
+            "data": { "choice": "Favorite Info" }
+        }
+    ]
+}

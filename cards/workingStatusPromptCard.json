@@ -1,0 +1,36 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Are you working?",
+            "wrap": true
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "workingStatus",
+            "style": "compact",
+            "choices": [
+                {
+                    "title": "Yes",
+                    "value": "Yes"
+                },
+                {
+                    "title": "No",
+                    "value": "No"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit"
+                }
+            ]
+        }
+    ]
+}

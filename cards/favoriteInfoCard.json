@@ -1,0 +1,24 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Here are your favorite details:",
+        "wrap": true,
+        "weight": "bolder"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Favorite Color: ${color}",
+        "wrap": true
+      },
+      {
+        "type": "TextBlock",
+        "text": "Favorite Animal: ${animal}",
+        "wrap": true
+      }
+    ]
+  }
+  

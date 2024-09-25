@@ -1,0 +1,25 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+      {
+          "type": "TextBlock",
+          "text": "What is your favorite color?"
+      },
+      {
+          "type": "Input.Text",
+          "id": "favoriteColor",
+          "placeholder": "Enter your favorite color"
+      },
+      {
+          "type": "ActionSet",
+          "actions": [
+              {
+                  "type": "Action.Submit",
+                  "title": "Submit"
+              }
+          ]
+      }
+  ]
+}
